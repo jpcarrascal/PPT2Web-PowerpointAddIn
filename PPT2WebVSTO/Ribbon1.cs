@@ -254,6 +254,7 @@ namespace PPT2WebVSTO
                                 Locator.Text = "ERROR: " + responseModel.status;
                             else
                                 Locator.Text = "Unknown error!";
+                            PPT2Web.Enabled = true;
                         }
                         if (File.Exists(fileName))
                         {
